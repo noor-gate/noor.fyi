@@ -1,0 +1,11 @@
+.cont {
+  font-family: 'Work Sans';
+  position: absolute;
+  top: 70px;
+  left: 370px;
+  width: 70%;
+}
+
+.cont h1 {
+  font-weight: 600;
+}

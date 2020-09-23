@@ -1,0 +1,51 @@
+.cont {
+  font-family: 'Work Sans';
+  position: absolute;
+  top: 70px;
+  left: 360px;
+  width: 70%;
+}
+
+.cont h1 {
+  position: relative;
+  left: 10px;
+  font-weight: 600;
+}
+
+.proj p {
+  position: relative;
+  top: 5px;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+
+.proj a {
+  color: black;
+}
+
+.proj a:hover {
+  text-decoration: none;
+}
+
+.proj {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 30px;
+}
+
+.proj h5 {
+  font-weight: 600;
+  font-size: 25px;
+  text-align: left;
+}
+
+.proj .module {
+  padding: 30px;
+  border: 5px dashed #eee;
+  transition: 0.1s;
+}
+
+.proj .module:hover {
+  border: 5px dashed var(--main-color);
+}
+

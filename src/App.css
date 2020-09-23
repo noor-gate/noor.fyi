@@ -1,38 +1,148 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+:root {
+  --main-color: #1bad92;
+}
+
+
+@keyframes fadein {
+    from { width: 0px; overflow: hidden; }
+    to   { width: 300px; }
+}
+
+.sidebar {
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  background-color: #f4f4f4;
+  font-family: 'Work Sans';
+  -webkit-animation: fadein 0.4s; /* Safari, Chrome and Opera > 12.1 */
+  -moz-animation: fadein 0.4s; /* Firefox < 16 */
+  -ms-animation: fadein 0.4s; /* Internet Explorer */
+  -o-animation: fadein 0.4s; /* Opera < 12.1 */
+  animation: fadein 0.4s;
+}
+
+.sidetext {
+  margin-left: 50px;
+  margin-top: 180px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.angle {
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bolder;
+  color: var(--main-color);
+  letter-spacing: 0.5px;
+  margin-right: 3px;
+}
+
+.pfp {
+  width: 70px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.links {
+  margin-top: 30px;
+}
+
+.links a {
+  letter-spacing: 0.5px;
+  margin-bottom: 7px;
+  color: grey;
+  text-decoration: none;
+  display: inline-block;
+  color: grey;
+  padding-bottom: .25em;
+  text-decoration: none;
+  background: linear-gradient(to bottom, var(--main-color) 0%, var(--main-color) 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 0px 0px;
+  text-decoration: none;
+}
+
+.links a:hover {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg id='squiggle-link' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:ev='http://www.w3.org/2001/xml-events' viewBox='0 0 20 4'%3E%3Cstyle type='text/css'%3E.squiggle{animation:shift .3s linear infinite;}@keyframes shift {from {transform:translateX(0);}to {transform:translateX(-20px);}}%3C/style%3E%3Cpath fill='none' stroke='%231bad92' stroke-width='2' class='squiggle' d='M0,3.5 c 5,0,5,-3,10,-3 s 5,3,10,3 c 5,0,5,-3,10,-3 s 5,3,10,3'/%3E%3C/svg%3E");
+  background-position: 0 100%;
+  background-size: auto 3px;
+  background-repeat: repeat-x;
+  text-decoration: none;
+  color: black;
+}
+
+
+.icons a {
+  color: grey;
+  margin-right: 15px;
+}
+
+.icons a:hover {
+  color: black;
+}
+
+.wrapper {
+  padding: 10px;
+  margin: 0 auto;
+  width: 500px;
   text-align: center;
-}
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  .item {
+    visibility: hidden;
+    display: none;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  h2 {
+    font-size: 50px;
+    margin: 0;
+    color: #3a3a3a;
+    text-align: left;
+  }
+
+  > div {
+    min-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: flex-end;
+    font-weight: bold;
+    color: orange;
+
+    &:after {
+content: "";
+    width: 10px;
+    height: 4px;
+    display: block;
+    background: black;
+    color: orange;
+    margin-bottom: 4px;
+    margin-left: 2px;
+    animation-duration: 350ms;
+    animation-name: fade;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    }
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
+@keyframes fade {
   from {
-    transform: rotate(0deg);
+    opacity: 1;
   }
+
   to {
-    transform: rotate(360deg);
+    opacity: 0;
   }
 }
+
