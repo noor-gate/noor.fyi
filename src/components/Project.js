@@ -7,48 +7,48 @@ import Col from 'react-bootstrap/Col'
 function Project() {
   return (
     <div className={style.cont}>
+          
+          <span>Projects</span><br /><br />
           <div className={style.intro}>
-          <h1>Projects.</h1><br />
-
           <Container>
           <Row>
-            <Col lg={4}>
+            <Col lg={6}>
               <div className={style.proj}>
                 <a href="https://github.com/noor-gate/quantum-music">
                 <div className={style.module}>
-                      <h5>Quantum Music</h5>
+                      <p>Quantum Music</p>
                       <p>Parses given MIDI files and uses wave function collapse to analyse patterns and produce a similar piece of music, which is returned as a new MIDI file</p>
                 </div>
                 </a>
               </div>
             </Col>
-            <Col lg={4}>
+            <Col lg={6}>
               <div className={style.proj}>
                 <a href="https://github.com/jameshball/osci-render">
                 <div className={style.module}>
-                    <h5>Osci-Render</h5>
+                    <p>Osci-Render</p>
                     <p>24 hour project that renders lines on an oscilloscope using audio, including a functional flappy bird game and any given coordinates and lines</p>
                 </div>
                 </a>
               </div>
             </Col>
-            <Col lg={4}>
+          </Row>
+          <Row>
+          <Col lg={6}>
             <div className={style.proj}>
               <a href="https://github.com/noor-gate/dotfiles">
                 <div className={style.module}>
-                        <h5>Dotfiles </h5>
+                        <p>Dotfiles </p>
                       <p>My personal collection of dotfiles</p>
                   </div>
                 </a>
               </div>
             </Col>
-          </Row>
-          <Row>
-            <Col lg={4}>
+            <Col lg={6}>
             <div className={style.proj}>
-              <a href="https://github.com/noor-gate/noor-gate.github.io">
+              <a href="https://github.com/noor-gate/noor.fyi">
                 <div className={style.module}>
-                  <h5>Personal Website</h5>
+                  <p>Personal Website</p>
                   <p>Built this website from scratch in ReactJS </p>
                 </div>
               </a>

@@ -1,22 +1,25 @@
 .cont {
-  font-family: 'Work Sans';
+  font-family: 'Brawler';
   position: absolute;
-  top: 70px;
-  left: 360px;
-  width: 70%;
+  top: 160px;
+  left: 500px;
+  width: 40%;
 }
 
-.cont h1 {
-  position: relative;
-  left: 10px;
-  font-weight: 600;
+.intro {
+  position: absolute;
+  top: 20px;
+  left: -47px;
+}
+
+.cont span {
+  border-bottom: 1px solid var(--main-color);
+  padding-bottom: 2px;
 }
 
 .proj p {
   position: relative;
   top: 5px;
-  letter-spacing: 0.5px;
-  font-size: 15px;
 }
 
 .proj a {
@@ -27,25 +30,51 @@
   text-decoration: none;
 }
 
+p:first-child {
+  font-style: italic;
+}
+
 .proj {
+  width: 90%;
+  height: 100%;
+  margin: 30px;
+}
+
+p:first-child {
+  font-style: italic;
+  letter-spacing: 0px;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  text-decoration: none;
+  position: relative;
+  padding: 0px 1px;
+  overflow: hidden;
+  vertical-align: bottom;
+  transition: color .1s ease;
+}
+
+
+p:first-child::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  transform: translateY(100%);
   width: 100%;
   height: 100%;
-  margin-bottom: 30px;
+  background: var(--main-color);
+  transition: transform .1s ease-out;
 }
 
-.proj h5 {
-  font-weight: 600;
-  font-size: 25px;
-  text-align: left;
+p:first-child:hover { 
+  color: #000; 
+  text-decoration: none;
 }
 
-.proj .module {
-  padding: 30px;
-  border: 5px dashed #eee;
-  transition: 0.1s;
-}
-
-.proj .module:hover {
-  border: 5px dashed var(--main-color);
+p:first-child:hover::before {
+  transform: translateY(0);
+  transition: transform .1s ease;
 }
 

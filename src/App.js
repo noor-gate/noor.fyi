@@ -11,6 +11,7 @@ import {
   BrowserRouter,
 } from "react-router-dom";
 import About from './components/About'
+import Skill from './components/Skill'
 import Project from './components/Project'
 import Etc from './components/Etc'
 
@@ -23,25 +24,21 @@ function App() {
 
       <Route exact path="/" component={About}/>
       <Route path="/projects" component={Project}/>
+      <Route path="/skills" component={Skill}/>
       <Route path="/etc" component={Etc}/>
 
 
       <div className="sidebar">
 
       <div className="sidetext">
-
-      <img className="pfp" src="https://i.imgur.com/N5eSZwk.png" />
-      <div className="title">Noor Sawhney</div>
-
-
-      <span className="angle">></span>  <span className="txt-rotate" data-period={2000} data-rotate="[ &quot;Computing Student&quot;, &quot;Tea Enthusiast&quot;]" />
-
+      <NavLink to="/"><div className="title">Noor Sawhney</div></NavLink>
 
       <div className="links">
-        <NavLink to="/">About</NavLink><br />
+          <NavLink to="/skills">Skills</NavLink><br />
         <NavLink to="/projects">Projects</NavLink><br />
+        <NavLink to="/etc">Now</NavLink><br />
         <a href="/noorsawhneycv.pdf">CV</a><br />
-        <NavLink to="/etc">Etc</NavLink><br /><br />
+        
       </div>
 
     
