@@ -14,14 +14,14 @@
 
 body {
   font-family: 'Brawler';
+  position: relative;
+  left: 150px;
 }
 
 .sidebar {
   width: 300px;
-  height: 100%;
+  top: 10px;
   position: fixed;
-  left: 200px;
-  top: 50px;
   font-family: 'Brawler';
 }
 

@@ -12,47 +12,49 @@ function Project() {
           <div className={style.intro}>
           <Container>
           <Row>
+          <Col lg={6}>
+              <div className={style.proj}>
+                <a href="https://www.r-home.co.uk">
+                <div className={style.module}>
+                      <p>r-home</p>
+                      <p>Professional project for Sustaintec. Developed website to showcase properties. Used Bootstrap and vanilla JS.</p>
+                </div>
+                </a>
+              </div>
+            </Col>
+            
             <Col lg={6}>
               <div className={style.proj}>
                 <a href="https://github.com/noor-gate/quantum-music">
                 <div className={style.module}>
                       <p>Quantum Music</p>
-                      <p>Parses given MIDI files and uses wave function collapse to analyse patterns and produce a similar piece of music, which is returned as a new MIDI file</p>
+                      <p>Parses given MIDI files and uses wave function collapse to analyse patterns and produce a similar piece of music, which is returned as a new MIDI file.</p>
                 </div>
                 </a>
               </div>
             </Col>
-            <Col lg={6}>
+            
+          </Row>
+          <Row>
+          <Col lg={6}>
               <div className={style.proj}>
                 <a href="https://github.com/jameshball/osci-render">
                 <div className={style.module}>
                     <p>Osci-Render</p>
-                    <p>24 hour project that renders lines on an oscilloscope using audio, including a functional flappy bird game and any given coordinates and lines</p>
+                    <p>24 hour project that renders lines on an oscilloscope using audio, including a functional flappy bird game and any given coordinates and lines.</p>
                 </div>
                 </a>
               </div>
             </Col>
-          </Row>
-          <Row>
           <Col lg={6}>
             <div className={style.proj}>
               <a href="https://github.com/noor-gate/dotfiles">
                 <div className={style.module}>
                         <p>Dotfiles </p>
-                      <p>My personal collection of dotfiles</p>
+                      <p>My personal collection of dotfiles.</p>
                   </div>
                 </a>
               </div>
-            </Col>
-            <Col lg={6}>
-            <div className={style.proj}>
-              <a href="https://github.com/noor-gate/noor.fyi">
-                <div className={style.module}>
-                  <p>Personal Website</p>
-                  <p>Built this website from scratch in ReactJS </p>
-                </div>
-              </a>
-            </div>
             </Col>
           </Row>
           </Container>
