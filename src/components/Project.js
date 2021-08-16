@@ -14,6 +14,17 @@ function Project() {
           <Row>
           <Col lg={6}>
               <div className={style.proj}>
+                <a href="">
+                <div className={style.module}>
+                      <p>Protectly</p>
+                      <p>Android app to facilitate the personal and group safety of 18-25 year olds, developed in Flutter using human centred design techniques</p>
+                </div>
+                </a>
+              </div>
+            </Col>
+
+          <Col lg={6}>
+              <div className={style.proj}>
                 <a href="https://www.r-home.co.uk">
                 <div className={style.module}>
                       <p>r-home</p>

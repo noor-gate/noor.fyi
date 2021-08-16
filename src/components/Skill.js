@@ -11,10 +11,14 @@ function Skill() {
           <li>C</li>
           <li>Python</li>
           <li>Haskell</li>
+          <li>Kotlin</li>
+          <li>Swift</li>
+          <li>Flutter</li>
+          <li>Git</li>
       </ul>
       Worked with:  
       <ul>
-          <li>Git</li>
+          
           <li>Django</li>
           <li>SQL</li>
           <li>JS (React, JQuery)</li>
