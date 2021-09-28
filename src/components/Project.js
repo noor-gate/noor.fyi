@@ -44,12 +44,7 @@ function Project() {
                 </a>
               </div>
             </Col>
-            
-            
-            
-          </Row>
-          <Row>
-          <Col lg={6}>
+            <Col lg={6}>
               <div className={style.proj}>
                 <a href="https://github.com/noor-gate/quantum-music">
                 <div className={style.module}>
@@ -59,6 +54,11 @@ function Project() {
                 </a>
               </div>
             </Col>
+            
+            
+          </Row>
+          <Row>
+          
           <Col lg={6}>
               <div className={style.proj}>
                 <a href="https://github.com/jameshball/osci-render">
