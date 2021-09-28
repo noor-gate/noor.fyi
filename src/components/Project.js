@@ -14,10 +14,21 @@ function Project() {
           <Row>
           <Col lg={6}>
               <div className={style.proj}>
-                <a href="">
+                <a href="https://gitlab.doc.ic.ac.uk/jhb119/drp28">
                 <div className={style.module}>
-                      <p>Protectly</p>
+                      <p>protectly</p>
                       <p>Android app to facilitate the personal and group safety of 18-25 year olds, developed in Flutter using human centred design techniques</p>
+                </div>
+                </a>
+              </div>
+            </Col>
+
+          <Col lg={6}>
+              <div className={style.proj}>
+                <a href="https://github.com/noor-gate/materials-to-notion">
+                <div className={style.module}>
+                      <p>materials to notion</p>
+                      <p>Import and organise DoC course materials into Notion</p>
                 </div>
                 </a>
               </div>
@@ -34,24 +45,25 @@ function Project() {
               </div>
             </Col>
             
-            <Col lg={6}>
-              <div className={style.proj}>
-                <a href="https://github.com/noor-gate/quantum-music">
-                <div className={style.module}>
-                      <p>Quantum Music</p>
-                      <p>Parses given MIDI files and uses wave function collapse to analyse patterns and produce a similar piece of music, which is returned as a new MIDI file.</p>
-                </div>
-                </a>
-              </div>
-            </Col>
+            
             
           </Row>
           <Row>
           <Col lg={6}>
               <div className={style.proj}>
+                <a href="https://github.com/noor-gate/quantum-music">
+                <div className={style.module}>
+                      <p>quantum music</p>
+                      <p>Parses given MIDI files and uses wave function collapse to analyse patterns and produce a similar piece of music, which is returned as a new MIDI file.</p>
+                </div>
+                </a>
+              </div>
+            </Col>
+          <Col lg={6}>
+              <div className={style.proj}>
                 <a href="https://github.com/jameshball/osci-render">
                 <div className={style.module}>
-                    <p>Osci-Render</p>
+                    <p>osci-render</p>
                     <p>24 hour project that renders lines on an oscilloscope using audio, including a functional flappy bird game and any given coordinates and lines.</p>
                 </div>
                 </a>
@@ -61,7 +73,7 @@ function Project() {
             <div className={style.proj}>
               <a href="https://github.com/noor-gate/dotfiles">
                 <div className={style.module}>
-                        <p>Dotfiles </p>
+                        <p>dotfiles </p>
                       <p>My personal collection of dotfiles.</p>
                   </div>
                 </a>
