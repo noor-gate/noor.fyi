@@ -6,9 +6,9 @@ function About() {
     <div className={style.cont}>
       <span>Hello there, I'm Noor.</span><br /><br />
       
-      I'm an incoming third year student at Imperial College London & current SWE Intern at Facebook.<br /><br />
+      I'm a third year Computing student at Imperial College London & former SWE Intern at Facebook.<br /><br />
 
-      I interned at QinetiQ last year, exploring my interest in cyber security, but I'm hoping to broaden my horizons with something new this year.<br /><br />
+      I'm interested in cyber security, climate tech and anything postive impact<br /><br />
       
       Outside of tech, I enjoy reading fiction, watching sunrises, and starting an unreasonable number of craft projects. <br /><br />
 
