@@ -161,15 +161,15 @@ body {
       opacity: 0
   }
 
-  15% {
+  1% {
       opacity: 1
   }
 
-  35% {
+  25% {
     opacity: 1
   }
 
-  40% {
+  26% {
     opacity: 0
   }
 
@@ -202,37 +202,32 @@ top: 250px;
 display: block;
 }
 
-.dot1, .dot2, .dot3 {
-  background: #fff;
-  width: 2px;
-  height: 2px;
-   border:double;
-   border-color:black;
-  border-radius: 50%;
+.loading {
   position: relative;
-  bottom: 3px;
-  margin: 2px;
-  left: 5px;
+  bottom: 26px;
+  left: 6px;
+}
+
+.loading:after {
+  overflow: hidden;
   display: inline-block;
+  vertical-align: bottom;
+  -webkit-animation: ellipsis steps(4, end) 2s infinite;
+  animation: ellipsis steps(4, end) 2s infinite;
+  content: " \2026 ";
+  /* ascii code for the ellipsis character */
+  width: 0px;
 }
-.dot1 {
-  animation: jump 3s -1s linear infinite;
-  background: black;
-}
-.dot2 {
-    animation: jump 3s -0.5s linear infinite;
-    background: black;
-}
-.dot3 {
-    animation: jump 3s linear infinite;
-    background: black;
-}
-@keyframes jump {
-  0%, 80%, 100% { 
-    -webkit-transform: scale(0);
-    transform: scale(0);
-  } 40% { 
-    -webkit-transform: scale(1.0);
-    transform: scale(1.0);
+
+@keyframes ellipsis {
+  to {
+    width: 30px;
   }
 }
+
+@-webkit-keyframes ellipsis {
+  to {
+    width: 40px;
+  }
+}
+

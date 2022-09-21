@@ -1,7 +1,6 @@
 .cont {
     position: absolute;
-    top: 80px;
-    right: 50px;
+    
     animation: twinkle 5s infinite;
 }
 

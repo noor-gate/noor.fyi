@@ -44,15 +44,13 @@ function App() {
       <div className="dialog-2">
       
 				<div className="right-point"></div>
-        <div class="dot1"> </div>
-      <div class="dot2"></div>
-      <div class="dot3"></div>
+        <h1 className="loading"></h1>
 			</div>
       </div>
 
 
       <Window className="window"></Window>
-      <Star className="star"></Star>
+      <Star top="120px" right="40px" className="star"></Star>
       
       </div>
 

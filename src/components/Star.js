@@ -1,9 +1,9 @@
 import React from 'react';
 import style from './Star.module.css';
 
-function Star() {
+function Star({top, right}) {
   return (
-    <div className={style.cont}>
+    <div style={{ top: top, right: right }} className={style.cont}>
       <>
   <svg
     version="1.1"
