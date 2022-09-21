@@ -14,6 +14,20 @@ function Project() {
           <Row>
           <Col lg={6}>
               <div className={style.proj}>
+                <a href="https://github.com/icl-group-09">
+                <div className={style.module}>
+                      <p>daedalus</p>
+                      <p>Drone data visualisation tool, developed in ReactJS</p>
+                      
+                </div>
+    
+                </a>
+              </div>
+            </Col>
+
+
+          <Col lg={6}>
+              <div className={style.proj}>
                 <a href="https://gitlab.doc.ic.ac.uk/jhb119/drp28">
                 <div className={style.module}>
                       <p>protectly</p>
@@ -44,7 +58,13 @@ function Project() {
                 </a>
               </div>
             </Col>
-            <Col lg={6}>
+           
+            
+            
+          </Row>
+          <Row>
+
+          <Col lg={6}>
               <div className={style.proj}>
                 <a href="https://github.com/noor-gate/quantum-music">
                 <div className={style.module}>
@@ -54,10 +74,6 @@ function Project() {
                 </a>
               </div>
             </Col>
-            
-            
-          </Row>
-          <Row>
           
           <Col lg={6}>
               <div className={style.proj}>

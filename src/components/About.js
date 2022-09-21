@@ -6,11 +6,11 @@ function About() {
     <div className={style.cont}>
       <span>Hello there, I'm Noor.</span><br /><br />
       
-      I'm a third year Computing student at Imperial College London & former SWE Intern at Facebook.<br /><br />
+      I'm a fourth year Computing student at Imperial College London & former intern at Humanising Autonomy, Meta and QinetiQ.<br /><br />
 
-      I'm interested in cyber security, climate tech and anything postive impact<br /><br />
+      This is my website. It has the main purpose of letting me play around with cool frameworks, with the side effect of showcasing my ✨ marketable skills ✨. <br /><br />
       
-      Outside of tech, I enjoy reading fiction, watching sunrises, and starting an unreasonable number of craft projects. <br /><br />
+      Outside of tech, I am an enthusiastic <a href="https://www.ravelry.com/people/noorkward">knitter</a>, <a href="https://app.thestorygraph.com/profile/noorkward">reader</a> and bad joke teller, among other things<br /><br />
 
       Find me on <a href="https://github.com/noor-gate">Github</a> and <a href="https://www.linkedin.com/in/noor-sawhney-755b1b19a/">LinkedIn</a>, or <a href="mailto:ns1619@ic.ac.uk">email me</a>.
       

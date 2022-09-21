@@ -1,19 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Brawler:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 
-
-
-.cont {
-  font-family: 'Brawler';
-  position: absolute;
-  top: 160px;
-  left: 400px;
-  width: 50%;
+:root {
+  --main-color: #ffdf00;
   color: #fff;
-}
-
-.intro {
-  position: absolute;
-  top: 20px;
-  left: -47px;
 }
 
 .cont span {
@@ -21,45 +10,33 @@
   padding-bottom: 2px;
 }
 
-.proj p {
-  position: relative;
-  top: 5px;
-}
-
-.proj a {
+.cont {
+  font-family: 'Brawler';
+  position: absolute;
+  top: 150px;
+  left: 400px;
+  width: 40%;
   color: #fff;
 }
 
-.proj a:hover {
-  text-decoration: none;
-}
-
-p:first-child {
-  font-style: italic;
-}
-
-.proj {
-  width: 90%;
-  height: 100%;
-  margin: 30px;
-}
-
-p:first-child {
+.cont a {
   font-style: italic;
   letter-spacing: 0px;
-  color: #fff;
   text-decoration: none;
   display: inline-block;
   text-decoration: none;
   position: relative;
-  padding: 0px 1px;
-  overflow: hidden;
-  vertical-align: bottom;
   transition: color .1s ease;
+  color: #fff;
+  margin-right: 20px;
+  padding-right: 4px;
 }
 
+.active {
+  display: none
+}
 
-p:first-child::before {
+.cont a::before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -67,17 +44,16 @@ p:first-child::before {
   left: 0;
   transform: translateY(100%);
   width: 100%;
-  height: 100%;
+  height: 110%;
   background: var(--main-color);
   transition: transform .1s ease-out;
 }
 
-p:first-child:hover { 
-  color: #000; 
+.cont a:hover { 
   text-decoration: none;
 }
 
-p:first-child:hover::before {
+.cont a:hover::before {
   transform: translateY(0);
   transition: transform .1s ease;
 }

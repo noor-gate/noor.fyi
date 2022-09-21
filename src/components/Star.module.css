@@ -1,0 +1,17 @@
+.cont {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    animation: twinkle 5s infinite;
+}
+
+@keyframes twinkle {
+    5% {
+        opacity: 0
+    }
+
+    15% {
+        opacity: 1
+    }
+
+}

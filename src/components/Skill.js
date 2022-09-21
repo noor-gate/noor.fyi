@@ -5,26 +5,25 @@ function Skill() {
   return (
     <div className={style.cont}>
       <span>Languages & Technologies</span> <br /><br />
-      Proficient: 
+      Proficient:
       <ul>
-          <li>Java</li>
+          <li>Java & Kotlin</li>
+          <li>Python (+ Django, Flask)</li>
           <li>C</li>
-          <li>Python</li>
-          <li>Haskell</li>
-          <li>Kotlin</li>
-          <li>Swift</li>
-          <li>Flutter</li>
+          <li>JS (+ ReactJS, JQuery)</li>
+          <li>Tensorflow</li>
+          <li>AWS CDK (S3, Lambda, EC2/ASG, SQS)</li>
           <li>Git</li>
-      </ul>
-      Worked with:  
-      <ul>
           
-          <li>Django</li>
-          <li>SQL</li>
-          <li>JS (React, JQuery)</li>
-          <li>HTML/CSS</li>
-      </ul>  
-        
+      </ul>
+      Worked with: 
+      <ul>
+        <li>Swift</li>
+        <li>Flutter</li>
+        <li>SQL</li>
+        <li>Haskell</li>
+      </ul>
+     
     </div>
   );
 }

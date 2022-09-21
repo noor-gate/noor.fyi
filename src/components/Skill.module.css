@@ -2,7 +2,6 @@
 
 :root {
   --main-color: #ffdf00;
-  
 }
 
 .cont span {
@@ -14,8 +13,9 @@
   font-family: 'Brawler';
   position: absolute;
   top: 160px;
-  left: 300px;
+  left: 400px;
   width: 40%;
+  color: #fff;
 }
 
 .cont li {
@@ -26,7 +26,7 @@
 .cont a {
   font-style: italic;
   letter-spacing: 0px;
-  color: black;
+  color: #fff;
   text-decoration: none;
   display: inline-block;
   text-decoration: none;

@@ -14,45 +14,37 @@ import About from './components/About'
 import Skill from './components/Skill'
 import Project from './components/Project'
 import Etc from './components/Etc'
+import Window from './components/Window'
+import Star from './components/Star'
+import { ReactSVG } from 'react-svg';
+import Nav from './components/Nav'
+import Interests from './components/Interests'
 
 library.add(fab, faEnvelope)
 
 function App() {
   return (
     <div>
+      
       <BrowserRouter>
 
+
+      
+
+     <div className="main">
       <Route exact path="/" component={About}/>
       <Route path="/projects" component={Project}/>
       <Route path="/skills" component={Skill}/>
       <Route path="/etc" component={Etc}/>
-
-
-      <div className="sidebar">
-
-      <div className="sidetext">
-      <NavLink to="/"><div className="title">Noor Sawhney</div></NavLink>
-
-      <div className="links">
-          <NavLink to="/skills">Skills</NavLink><br />
-        <NavLink to="/projects">Projects</NavLink><br />
-        <NavLink to="/etc">Now</NavLink><br />
-        <a href="/noorsawhneycv.pdf">CV</a><br />
-        
+      <Route path="/interests" component={Interests}/>
       </div>
-
-    
-
+      <Nav></Nav>
       
-
-      <div className="icons">
-      <a href="https://www.linkedin.com/in/noor-sawhney-755b1b19a/"><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></a>
-      <a href="https://github.com/noor-gate"><FontAwesomeIcon icon={['fab', 'github']} /></a>
-      <a href="mailto:ns1619@ic.ac.uk"><FontAwesomeIcon icon="envelope" /></a>
+      <div className="sidebar">
+      <Window className="window"></Window>
+      <Star className="star"></Star>
       </div>
 
-      </div>
-      </div>
       </BrowserRouter>
       
     </div>
