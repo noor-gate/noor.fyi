@@ -8,7 +8,7 @@ function About() {
       
       I'm a fourth year Computing student at Imperial College London & former intern at Humanising Autonomy, Meta and QinetiQ.<br /><br />
 
-      This is my website. It has the main purpose of letting me play around with cool frameworks, with the side effect of showcasing my ✨ marketable skills ✨. <br /><br />
+      This is my website. It has the main purpose of letting me play around with cool frameworks, with the useful side effect of showcasing my skills & projects. <br /><br />
       
       Outside of tech, I am an enthusiastic <a href="https://www.ravelry.com/people/noorkward">knitter</a>, <a href="https://app.thestorygraph.com/profile/noorkward">reader</a> and bad joke teller, among other things<br /><br />
 
