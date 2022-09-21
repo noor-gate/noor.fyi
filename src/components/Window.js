@@ -5,6 +5,7 @@ function Window() {
   return (
     <div className={style.cont}>
       <>
+     
   <svg
     version="1.1"
     id="Layer_1"

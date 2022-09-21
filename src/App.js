@@ -22,6 +22,8 @@ library.add(fab, faEnvelope)
 function App() {
   return (
     <div>
+
+
       
       <BrowserRouter>
 
@@ -38,8 +40,20 @@ function App() {
       <Nav></Nav>
       
       <div className="sidebar">
+      <div className="box">
+      <div className="dialog-2">
+      
+				<div className="right-point"></div>
+        <div class="dot1"> </div>
+      <div class="dot2"></div>
+      <div class="dot3"></div>
+			</div>
+      </div>
+
+
       <Window className="window"></Window>
       <Star className="star"></Star>
+      
       </div>
 
       </BrowserRouter>
