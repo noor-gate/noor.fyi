@@ -153,7 +153,7 @@ body {
   position: absolute;
   border-radius: 10%;
   right: 0;
-  animation:  20s infinite;
+  animation: twinkle 20s infinite;
 }
 
 @keyframes twinkle {
