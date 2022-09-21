@@ -44,7 +44,7 @@ function App() {
       <div className="dialog-2">
       
 				<div className="right-point"></div>
-        <h1 className="loading"></h1>
+        <span className="loading"></span>
 			</div>
       </div>
 

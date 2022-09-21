@@ -153,7 +153,7 @@ body {
   position: absolute;
   border-radius: 10%;
   right: 0;
-  animation: twinkle 20s infinite;
+  animation:  20s infinite;
 }
 
 @keyframes twinkle {
@@ -204,8 +204,9 @@ display: block;
 
 .loading {
   position: relative;
-  bottom: 26px;
-  left: 6px;
+  bottom: 40px;
+  left: 5px;
+  font-size: 47px;
 }
 
 .loading:after {
@@ -221,7 +222,7 @@ display: block;
 
 @keyframes ellipsis {
   to {
-    width: 30px;
+    width: 40px;
   }
 }
 
