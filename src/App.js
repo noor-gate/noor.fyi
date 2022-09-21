@@ -1,13 +1,11 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {
   Route,
-  NavLink,
   BrowserRouter,
 } from "react-router-dom";
 import About from './components/About'
@@ -16,7 +14,6 @@ import Project from './components/Project'
 import Etc from './components/Etc'
 import Window from './components/Window'
 import Star from './components/Star'
-import { ReactSVG } from 'react-svg';
 import Nav from './components/Nav'
 import Interests from './components/Interests'
 
